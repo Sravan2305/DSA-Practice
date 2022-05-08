@@ -1,2 +1,2 @@
 # DSA-Practice
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+This is a collection of all the medium and hard problems I practiced on leetcode to ace my interviews.
