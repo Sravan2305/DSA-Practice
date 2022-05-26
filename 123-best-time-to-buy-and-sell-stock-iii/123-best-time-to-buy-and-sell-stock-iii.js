@@ -14,6 +14,7 @@ var maxProfit = function(prices) {
                 dp[i][trans]= Math.max( prices[i]+dp[i+1][trans+1] , dp[i+1][trans] )
         }
     }
+    console.log(dp)
     return dp[0][0]
 }
 // var maxProfit = function(prices) {
