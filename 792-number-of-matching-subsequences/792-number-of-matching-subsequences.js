@@ -3,27 +3,7 @@
  * @param {string[]} words
  * @return {number}
  */
-// var numMatchingSubseq = function(s, words) {
-//     let matches = 0;
-//     for (const word of words) {
-//         let lastIndex = -1;
-//         let match = 0;
-//         for (let i = 0; i < word.length; i++) {
-//             const char = word.charAt(i);
-//             const currentIndex = s.indexOf(char, lastIndex + 1);
-//             if (currentIndex > lastIndex) {
-//                 match++;
-//                 lastIndex = currentIndex;
-//             } else {
-//                 break;
-//             }
-//         }
-//         if (match == word.length) {
-//             matches++;
-//         }
-//     }
-//     return matches;
-// };
+
 
 var numMatchingSubseq = function(s, words) {
     let ans = 0 
